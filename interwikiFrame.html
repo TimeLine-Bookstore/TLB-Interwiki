@@ -106,7 +106,7 @@ function createItem(a, b, c) {
     var idx = (v) => IntKeys.indexOf(v);
     item.classList.add("menu-item");
     item.setAttribute("name", c);
-    item.innerHTML = '<img src="https://scp-wiki-cn.wdfiles.com/local--files/nav%3Aside/default.png" alt="default.png" class="image" /><a href="' + a + '" target="_parent">' + b + '</a>';
+    item.innerHTML = '<img src="https://timeline-bookstore.wdfiles.com/local--files/nav%3Aside/default.png" alt="default.png" class="image" /><a href="' + a + '" target="_parent">' + b + '</a>';
     if (itemsAry.length == 0 || idx(itemsAry[itemsAry.length - 1].getAttribute("name")) <= idx(c)) {
         sideBlock.appendChild(item);
     } else {
