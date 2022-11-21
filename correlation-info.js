@@ -39,14 +39,6 @@ var Int = {
         category: ""
     },
   
-  "scp-mc": {
-        name: "基金会MC分部",
-        head: "跨维基页面",
-        url: "http://scp-wiki-mc.wikidot.com/",
-        id: "4427955",
-        category: ""
-    },
-  
   "dfc": {
         name: "深林文学部",
         head: "跨维基页面",
