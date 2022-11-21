@@ -11,10 +11,10 @@
 <script type="text/javascript" src="https://timeline-bookstore.github.io/TLB-Interwiki/correlation-info-wl.js"></script>
 
 <!-- PageLookupQModule -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/SCP-CN-Tech/Interwiki@cn/getWikiModule.js"></script>
+<script type="text/javascript" src="https://timeline-bookstore.github.io/TLB-Interwiki/getWikiModule.js"></script>
 
 <!-- C-take's resizing iframe method -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/SCP-CN-Tech/Interwiki@cn/createResizeIframe.js"></script>
+<script type="text/javascript" src="https://timeline-bookstore.github.io/TLB-Interwiki/createResizeIframe.js"></script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
@@ -116,7 +116,7 @@ function createItem(a, b, c) {
     var idx = (v) => IntKeys.indexOf(v);
     item.classList.add("menu-item");
     item.setAttribute("name", c);
-    item.innerHTML = '<img src="http://scp-wiki-cn.wdfiles.com/local--files/nav%3Aside/default.png" alt="default.png" class="image" /><a href="' + a + '" target="_parent">' + b + '</a>';
+    item.innerHTML = '<img src="" alt="" class="image" /><a href="' + a + '" target="_parent">' + b + '</a>';
     if (itemsAry.length == 0 || idx(itemsAry[itemsAry.length - 1].getAttribute("name")) <= idx(c)) {
         sideBlock.appendChild(item);
     } else {
