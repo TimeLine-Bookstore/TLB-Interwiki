@@ -45,5 +45,5 @@ var IntWL = {
         url: "http://deep-forest-club.wikidot.com/",
         id: "4861346",
         category: ""
-    },
+    }
 };
